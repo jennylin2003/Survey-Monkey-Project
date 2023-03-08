@@ -15,6 +15,11 @@ navigating RStudio environment
 Importing Data: built-in datasets, exploring datasets w/ pacman, XML, JSON, saving data (native R formats)
 Visualizing Data w/ ggplot2: colors, color palettes, bar charts, histograms, box plots, scatterplots, multiple graphs, cluster charts
 
+Structure of ggplot2 Commands
+ggplot(data = <DATA> ) + <GEOM_FUNCTION> (mapping = aes(<MAPPINGS>), stat = <STAT>, position = <POSITION>) + <COORDINATE_FUNCTION> + <FACET_FUNCTION>
+
+qplot commands for quicker work but with less power and control 
+
 Wrangling Data: tidy data, using tibbles, data.table, converting wide to tall data and from tall to wide, tables to rows, dates & times, list data, XML,
 categorical variables, filtering cases & subgroups
 
